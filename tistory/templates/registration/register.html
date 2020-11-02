@@ -1,0 +1,16 @@
+{% extends "blogs/_base.html" %}
+
+{% block title %}회원가입{% endblock %}
+{% block page %}signup{% endblock %}
+
+{% block content %}
+<div style="padding-left: 50px; padding-top: 50;">
+    <h1>Signup</h1>
+    <hr>
+    <form action="" method="POST">
+        {{ user_form.as_p }} <!-- as_p : 각각의 필드들을 문단으로 출력 (태그 중 하나)-->
+        {% csrf_token %}
+        <button type="btn btn-primary" type="submit" value="submit">로그인</button>
+    </form>
+</div>
+{% endblock %}
