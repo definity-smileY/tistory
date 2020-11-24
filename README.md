@@ -16,4 +16,4 @@ Benchmarking Portfolio
 
 7. **Function** : 장고내장모듈 로그인 & 로그아웃기능, 글쓰기 기능, 공감 기능, sns에글 공유
 
-<https://blog.naver.com/yysdntjq>
+**blog** <https://blog.naver.com/yysdntjq>
